@@ -1,0 +1,124 @@
+/*----------- Global styles -------------*/
+
+*{
+    margin:0; 
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: Arial , sans-serif;
+    color:#172033;
+    background: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+/*----------- Nav bar -------------*/
+
+.navbar {
+    width:100%;
+    padding: 22px 0;
+    background: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+
+
+/*-----------Nav logo -------------*/
+
+.logo {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #4f4fd3;
+}
+
+.logo:hover {
+    color: #635bff;
+}
+
+
+
+
+/* ----- Navigation Links----------- */
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.nav-links a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4b5563;
+    transition: 0.3s ease;
+    position:relative;
+}
+
+.nav-links a:hover {
+    color: #635bff;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -6px;
+    background: #635bff;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+
+/*------- Get Started Button ---------*/
+
+.nav-button {
+    padding: 13px 24px;
+    border-radius: 9px;
+    background: #635bff;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 18px rgba(99, 91, 255, 0.20);
+}
+
+.nav-button:hover{
+    background : #4f46a5;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99,91,255,0.30);
+}
+

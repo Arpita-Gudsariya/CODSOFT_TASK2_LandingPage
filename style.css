@@ -124,9 +124,7 @@ a {
 
 
 
-/* =========================
-   HERO SECTION
-========================= */
+/*-------- HERO SECTION------------*/
 
 .hero {
     min-height: calc(100vh - 91px);
@@ -144,9 +142,7 @@ a {
 }
 
 
-/* =========================
-   HERO CONTENT
-========================= */
+/* ------------HERO CONTENT-----------*/
 
 .hero-content {
     width: 52%;
@@ -188,10 +184,7 @@ a {
     line-height: 1.7;
 }
 
-
-/* =========================
-   HERO BUTTONS
-========================= */
+/* -----------HERO BUTTONS-----------*/
 
 .hero-buttons {
     display: flex;
@@ -236,9 +229,7 @@ a {
 }
 
 
-/* =========================
-   HERO VISUAL
-========================= */
+/*-----------HERO VISUAL-------------- */
 
 .hero-visual {
     width: 48%;
@@ -275,9 +266,7 @@ a {
 }
 
 
-/* =========================
-   MAIN CREATIVE CARD
-========================= */
+/* ------------ MAIN CREATIVE CARD ------------ */
 
 .hero-card {
     position: relative;
@@ -347,9 +336,7 @@ a {
 }
 
 
-/* =========================
-   FLOATING CARDS
-========================= */
+/* ------------- FLOATING CARDS------------*/
 
 .floating-card {
     position: absolute;
@@ -389,9 +376,7 @@ a {
 }
 
 
-/* =========================
-   RESPONSIVE HERO
-========================= */
+/* -------------RESPONSIVE HERO -------------- */
 
 @media (max-width: 900px) {
 
@@ -489,9 +474,7 @@ a {
 }
 
 
-/* =========================
-   HERO STATS
-========================= */
+/*----------------- HERO STATS --------------*/
 
 .hero-stats {
     display: flex;
@@ -513,9 +496,7 @@ a {
 }
 
 
-/* =========================
-   HERO GLOW
-========================= */
+/* -------------HERO GLOW ------------*/
 
 .visual-glow {
     position: absolute;
@@ -528,10 +509,7 @@ a {
     z-index: 0;
 }
 
-
-/* =========================
-   CARD NUMBER
-========================= */
+/*--------------  CARD NUMBER -------------- */
 
 .card-number {
     position: absolute;
@@ -544,9 +522,7 @@ a {
 }
 
 
-/* =========================
-   CARD ANIMATION
-========================= */
+/*------------------CARD ANIMATION------------------*/
 
 .hero-card {
     animation: floatingCard 5s ease-in-out infinite;
@@ -566,4 +542,212 @@ a {
         transform: rotate(-4deg) translateY(0);
     }
 
+}
+
+
+
+/*------------------- SERVICES SECTION ------------------*/
+
+.services {
+    padding: 110px 0;
+    background: #ffffff;
+}
+
+
+/*-------------------- SECTION HEADING ------------------*/
+
+.section-heading {
+   
+    margin-bottom: 60px;
+}
+
+.section-tag {
+    display: inline-block;
+    margin-bottom: 18px;
+    color: #635bff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-heading h2 {
+    font-size: clamp(38px, 4vw, 55px);
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    color: #172033;
+    margin-bottom: 20px;
+}
+
+.section-heading h2 span {
+    color: #635bff;
+}
+
+.section-heading p {
+    max-width: 600px;
+    color: #697386;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/*-------------------- SERVICES GRID ------------------*/
+
+.services-grid {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+/*-------------------- SERVICE CARD ------------------*/
+
+
+.service-card {
+    width: 100%;
+    min-height: 450px;
+    padding: 34px 32px;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    position:relative;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: #cfcaff;
+    box-shadow: 0 20px 45px rgba(23, 32, 51, 0.10);
+}
+
+
+/* Featured Card */
+
+.featured-service {
+    background: #172033;
+    border-color: #172033;
+    color: #ffffff;
+}
+
+.featured-service:hover {
+    border-color: #172033;
+}
+
+/*-------------------- SERVICE ICON ------------------*/
+
+.service-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 45px;
+    border-radius: 13px;
+    background: #eeecff;
+    color: #635bff;
+    font-size: 23px;
+}
+
+.featured-service .service-icon {
+    background: #635bff;
+    color: #ffffff;
+}
+
+
+/*-------------------- SERVICE NUMBER ------------------*/
+
+.service-number {
+    position: absolute;
+    top: 35px;
+    right: 32px;
+    color: #a0a6b5;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.featured-service .service-number {
+    color: #737b8d;
+}
+
+
+/* -------------------- SERVICE CONTENT ------------------*/
+
+.service-card h3 {
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #172033;
+}
+
+.featured-service h3 {
+    color: #ffffff;
+}
+
+.service-card p {
+    margin-bottom: 28px;
+    color: #6b7280;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.featured-service p {
+    color: #aeb5c4;
+}
+
+
+/*-------------------- SERVICE LINK ------------------*/
+
+.service-link {
+    color: #635bff;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.service-link:hover {
+    letter-spacing: 0.3px;
+}
+
+.featured-service .service-link {
+    color: #9a95ff;
+}
+
+
+/* ---Section Responsive --- */
+
+@media (max-width: 900px) {
+
+    .services {
+        padding: 80px 0;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .services {
+        padding: 70px 0;
+    }
+
+    .section-heading {
+        margin-bottom: 40px;
+    }
+
+    .section-heading h2 {
+        font-size: 38px;
+    }
+
+    .section-heading p {
+        font-size: 16px;
+    }
+
+    .service-card {
+        padding: 26px;
+    }
 }

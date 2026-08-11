@@ -755,9 +755,7 @@ a {
 
 
 
-/* =========================
-   ABOUT SECTION
-========================= */
+/* --------------- ABOUT SECTION --------------- */
 
 .about {
     padding: 80px 0;
@@ -773,9 +771,7 @@ a {
 }
 
 
-/* =========================
-   ABOUT VISUAL
-========================= */
+/* -------------ABOUT VISUAL------------- */
 
 .about-visual {
     position: relative;
@@ -796,9 +792,7 @@ a {
 }
 
 
-/* =========================
-   MAIN ABOUT CARD
-========================= */
+/* ------------- Main ABOUT CARD------------- */
 
 .about-card {
     position: relative;
@@ -856,9 +850,7 @@ a {
 }
 
 
-/* =========================
-   MINI CARD
-========================= */
+/* ------------- MINI CARD------------- */
 
 .about-mini-card {
     position: absolute;
@@ -902,9 +894,7 @@ a {
 }
 
 
-/* =========================
-   ABOUT CONTENT
-========================= */
+/* ------------- ABOUT CONTENT------------- */
 
 .about-content {
     max-width: 650px;
@@ -936,9 +926,7 @@ a {
 }
 
 
-/* =========================
-   ABOUT HIGHLIGHTS
-========================= */
+/* ------------- ABOUT HIGHLIGHTS------------- */
 
 .about-highlights {
     display: grid;
@@ -981,9 +969,7 @@ a {
 }
 
 
-/* =========================
-   ABOUT BUTTON
-========================= */
+/* ------------- ABOUT BUTTON------------- */
 
 .about-btn {
     display: inline-flex;
@@ -1005,9 +991,7 @@ a {
 }
 
 
-/* =========================
-   ABOUT RESPONSIVE
-========================= */
+/* ------------- ABOUT RESPONSIVE------------- */
 
 @media (max-width: 900px) {
 
@@ -1076,4 +1060,148 @@ a {
         grid-template-columns: 1fr;
         gap: 20px;
     }
+}
+
+/*----------- WORK SECTION -----------*/
+
+.work {
+    padding: 90px 0;
+    background: #ffffff;
+}
+
+.work-heading {
+    margin-bottom: 50px;
+}
+
+
+/* --------- Work Grid-------------*/
+
+.work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+/* --------- Work Card------------- */
+
+.work-card {
+    padding: 30px;
+    min-height: 350px;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    background: #ffffff;
+    transition: 0.3s ease;
+}
+
+.work-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(23, 32, 51, 0.08);
+}
+
+
+/* --------- Featured Card------------- */
+
+.featured-work {
+    background: #172033;
+    color: #ffffff;
+}
+
+
+/* --------- Top------------- */
+
+.work-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.work-number {
+    color: #635bff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.work-category {
+    color: #635bff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+/* --------- Icon------------- */
+
+.work-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    border-radius: 12px;
+    background: #eeecff;
+    color: #635bff;
+    font-size: 22px;
+}
+
+.featured-work .work-icon {
+    background: #635bff;
+    color: #ffffff;
+}
+
+
+/* --------- Content------------- */
+
+.work-card h3 {
+    margin-bottom: 15px;
+    color: #172033;
+    font-size: 24px;
+}
+
+.featured-work h3 {
+    color: #ffffff;
+}
+
+.work-card p {
+    margin-bottom: 25px;
+    color: #6b7280;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.featured-work p {
+    color: #aeb5c4;
+}
+
+
+/* --------- Link------------- */
+
+.work-link {
+    color: #635bff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* --------- Responsive------------- */
+
+@media (max-width: 900px) {
+
+    .work-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .work {
+        padding: 70px 0;
+    }
+
+    .work-card {
+        padding: 25px;
+    }
+
 }

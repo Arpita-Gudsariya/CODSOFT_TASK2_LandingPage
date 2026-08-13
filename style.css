@@ -1487,3 +1487,330 @@ a {
     }
 
 }
+
+
+/* =========================
+   MOBILE NAVBAR
+========================= */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        padding: 18px 0;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .nav-links {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .nav-button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+/* =========================
+   MOBILE NAVBAR
+========================= */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        padding: 18px 0;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .nav-links {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .nav-button {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+/* =========================
+   MOBILE HERO SECTION
+========================= */
+
+@media (max-width: 700px) {
+
+    .hero {
+        padding: 70px 0;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero-buttons a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-stats {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .hero-visual {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+/* =========================
+   MOBILE SERVICES SECTION
+========================= */
+
+@media (max-width: 700px) {
+
+    .services {
+        padding: 70px 0;
+    }
+
+    .section-heading {
+        text-align: center;
+    }
+
+    .section-heading h2 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .section-heading p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .service-card {
+        min-height: auto;
+        padding: 28px;
+    }
+
+    .service-card h3 {
+        font-size: 24px;
+    }
+
+}
+
+
+
+/* =========================
+   MOBILE ABOUT SECTION
+========================= */
+
+@media (max-width: 700px) {
+
+    .about {
+        padding: 70px 0;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .about-visual {
+        min-height: 390px;
+    }
+
+    .about-card {
+        width: 285px;
+        min-height: 330px;
+        padding: 26px;
+    }
+
+    .about-card h3 {
+        font-size: 27px;
+    }
+
+    .about-content h2 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .about-content .about-intro {
+        font-size: 17px;
+    }
+
+    .about-highlights {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .about-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+/* =========================
+   MOBILE WORK SECTION
+========================= */
+
+@media (max-width: 700px) {
+
+    .work {
+        padding: 70px 0;
+    }
+
+    .work-heading {
+        margin-bottom: 40px;
+    }
+
+    .work-heading h2 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .work-heading p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .work-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .work-card {
+        min-height: auto;
+        padding: 28px;
+    }
+
+    .work-card h3 {
+        font-size: 24px;
+    }
+
+}
+
+
+
+/* =========================
+   MOBILE CONTACT SECTION
+========================= */
+
+@media (max-width: 700px) {
+
+    .contact {
+        padding: 70px 0;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .contact-content h2 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .contact-content > p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .contact-form {
+        padding: 25px;
+    }
+
+}
+
+/* =========================
+   MOBILE FOOTER
+========================= */
+
+@media (max-width: 700px) {
+
+    .footer {
+        padding: 45px 0 20px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-links {
+        gap: 18px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
